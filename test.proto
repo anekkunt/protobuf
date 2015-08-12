@@ -1,0 +1,11 @@
+message Rpcheader
+{
+        required int32  rpcreq = 1;
+}
+
+message DMessage
+{
+        required Rpcheader header =1;
+        required int32       a    =2;
+        required int32       b    =3;
+}
